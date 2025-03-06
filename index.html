@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./images/sun.svg">
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body class="bg-custom-class mx-auto px-5">
     <!-- шапка -->
@@ -30,8 +30,8 @@
 
             <nav class="navbar">
                 <ul class="navbar__list list-unstyled">
-                    <li class="navbar__item active">
-                        <a href="#" class="navbar__link active">Overview</a>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">Overview</a>
                     </li>
                     <li class="navbar__item">
                         <a href="#" class="navbar__link">Document</a>
@@ -47,7 +47,13 @@
             <div class="account">
                 <div class="header__account"><img src="./images/chat.png" alt="" class="header__account-image"></div>
                 <div class="header__account"><img src="./images/notification.png" class="header__account-image" alt=""></div>
-                <div class="header__account man"><img src="./images/man.svg" alt="" class="header__account-image-photo"></div>
+               
+                    <button type="button" class="header__account man"  data-bs-toggle="popover" title="Личный кабинет" data-bs-content="Настройки Вход" >
+                        <img src="./images/man.svg" alt="" class="header__account-image-photo">
+                      </button>
+
+                
+                  
             </div>
         
         </div>
@@ -57,18 +63,23 @@
         <!-- контентная часть слева -->
          <!-- сверху надпись -->
          <div class="row gx-3">
-            <div class="content-left col-5  ">
+            <div class="content-left col-6  ">
                 <div class="content_image-text row classWithPad">
-                    <div class="content-text-block col-7">
+                    <div class="content-text-block col-9">
                         <h1 class="content-text"><strong>Overview</strong> <br>Patient Health</span></h1>
                     </div>
-                    <div class="circle-process col-4">
-                        <span class="loader">
-                            <div class="procent8">
-                                <div class="circle-process-text position-absolute">8 </div><span class="circle-process-text-span">%</span>
-                                
+                    <div class="circle-process col-3 row">
+                        <div class="block_procent">
+                            <!-- <span class="loader"> -->
+                            <div class="circle">
+                                <div class="segment1"><p class="text_segment">8<span class="unical_segment">%</span></p></div>
+                                <div class="segment1_before"></div>
+                                <div class="segment3"></div>
+                                <div class="segment4"></div>
+                                <div class="segment4_before"></div>
                             </div>
-                        </span>
+                        </div>
+                        <!-- </span> -->
                     </div>
                 </div>
             <!-- блок с картинкой слева -->
@@ -76,18 +87,18 @@
                     <div class="content_lungs-images position-relative ">
                         <div class="image_lungs ">
                             <img src="./images/snapedit_1738788685744.png" alt="" class="image_lungs-img ">
-                            <div class="heart_ring-card position-absolute">
+                            <div class="heart_ring-card">
                                 <div class="heart_ring-card-pharagraht ">
                                     <div class="heart_ring-card-circle">
-                                        <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-primary p-2"><span class="visually-hidden">unread messages</span></span>
+                                        <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-primary p-1"><span class="visually-hidden">unread messages</span></span>
                                         <img src="./images/binoculars.png" alt="" class="binoculars">
                                     </div>
                                     <p class="heart-ring">Heart ring</p>
                                 </div>
                             </div>
                             
-                            <div class="graf-card-pharagraht position-absolute">
-                                <div class="graf-card ">
+                            <div class="graf-card-pharagraht">
+                                <div class="graf-card">
                                     <div class="under-graf-block">
                                         <div class="graf-card-circle">
                                             <img src="./images/pulse_ywtzhsfew9re.svg" alt="" class="trend">
@@ -106,7 +117,7 @@
                             </div>
 
                             <div class="blur-card-head">
-                                <div class="blur-card-block position-absolute">
+                                <div class="blur-card-block">
                                     <div class="blur-card-image">
                                         <div class="blur-card-image-text">
                                             <div class="header__account man light"><img src="./images/man.svg" alt="" class="header__account-image-photo"></div>
@@ -119,16 +130,16 @@
                             </div>
 
                             <div class="blur-point">
-                                <div class="position-blur-f position-absolute"><div class="blur-point-first"></div></div>
-                                <div class="position-blur-s position-absolute"><div class="blur-point-second"></div></div>
-                                <div class="position-blur-t position-absolute"><div class="blur-point-third"></div></div>
+                                <div class="position-blur-f"><div class="blur-point-first"></div></div>
+                                <div class="position-blur-s"><div class="blur-point-second"></div></div>
+                                <div class="position-blur-t"><div class="blur-point-third"></div></div>
                             </div>
 
                             <div class="novigation-icon-mane position-absolute">
                                 <div class="novigation-icon">
-                                    <div class="image_plus "><img src="./images/magnifying-glass.png" alt="" class="image_icon"></div>
-                                    <div class="image_maximize "><img src="./images/maximize.png" alt="" class="image_icon"></div>
-                                    <div class="image_minus "><img src="./images/magnifying-glass (1).png" alt="" class="image_icon"></div>
+                                    <div class="image_plus"><img src="./images/magnifying-glass.png" alt="" class="image_icon"></div>
+                                    <div class="image_maximize"><img src="./images/maximize.png" alt="" class="image_icon"></div>
+                                    <div class="image_minus"><img src="./images/magnifying-glass (1).png" alt="" class="image_icon"></div>
                                 </div>
                             </div>
                         </div>
@@ -136,19 +147,22 @@
                 </div>
             </div>
         
-            <div class="content_rigth col-7 mx-auto px-3">
+            <div class="content_rigth col-6 mx-auto px-3">
                 <div class="content_right-top row classWithPad ">
-                    <div class="medication col-8 fluid-container">
+                    <div class="medication col-8 fluid-container ">
                         <div class="contant-medication">
                             <p class="medication-main">Medication</p>
                             <div class="medication-main-btn">
                                 <div class="search-block">
                                     <div class="search">
                                         <img src="./images/magnifying-glass.png" alt="" class="medication_search">
+                                        <input type="text" placeholder="Search..." class="search_text">
                                     </div>
-                                    <p class="search_text">Search...</p>
+                                    
+                                    
+                                    <!-- <p class="search_text">Search...</p> -->
                                 </div>
-                                <div class="medication_maximize"><img src="./images/expand_rtw1a9t2h9td.svg" alt="" class="image_maximize-medication"></div>
+                                <div class="medication_maximize"><img src="./images/free-icon-scale-up-7259288.svg" alt="" class="image_maximize-medication"></div>
                                 <div class="medication_folder"><img src="./images/folder_4w4hn3zmlqz3.svg" alt="" class="folder_image"></div>
                             </div>
                         </div>
@@ -160,9 +174,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="content_right-under container-fluid">
+                
+                <div class="content_right-under">
                     <div class="container_right-under-first row">
-                        <div class="block col-8">
+                        <div class="block col-8 fluid-container">
                             <div class="header">
                                 <div class="header-left-icon">
                                     <div class="icon">
@@ -185,25 +200,21 @@
                                     </div>
                                 </div>
                             </div>
-                            
                         </div>
-                        
-                        <div class="scan-cardiology col-4">
-                            <div class="scan-block">
+                        <div class="scan-cardiology col-4 fluid-container">
+                            <div class="test">
                                 <div class="text-arrow">
                                     <p class="scan">Scan <br>Cardiology</p>
                                     <img src="./images/up_right_arrow_3ppjpznrynmx.svg" alt="" class="arrow">
                                 </div>
-                                <div class="prom-text">
-                                    <p class="num">1,276</p>
-                                </div>
+                                <p class="num">1,276</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="content_right-under-before container-fluid">
+                <div class="content_right-under-before">
                     <div class="container_right-under-second row">
-                        <div class="card-top col-6">
+                        <div class="card-top col-6 fluid-container">
                             <div class="header-card">
                                 <div class="header-card-account">
                                     <div class="header__account man card"><img src="./images/man.svg" alt="" class="header__account-image-photo"></div>
@@ -229,7 +240,7 @@
                                 <span class="arrow_span"><img src="./images/up_right_arrow_3ppjpznrynmx (1).svg" alt=""></span>
                             </div>
                         </div>
-                        <div class="osteoporosis col-6">
+                        <div class="osteoporosis col-6 fluid-container">
                             <div class="btnm">
                                 <div class="osteoporosis-btn-left">
                                     <div class="lock-icon back">
@@ -255,9 +266,28 @@
             </div>
         </div>
     </main>
-        
-</body>
 
+    <div class="line"></div>
+
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
+<!-- перенос строк -->
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+    popoverTriggerList.forEach(function (popoverTriggerEl) {
+        new bootstrap.Popover(popoverTriggerEl, {
+            html: true,
+            content: 'Настройки<br>Выход' 
+        });
+    });
+</script>
+<script src="./js/bootstrap.js">
+</script>
+<script src="./js/popover.js"></script>
 </body>
 </html>
 
