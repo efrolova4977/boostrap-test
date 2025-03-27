@@ -9,9 +9,9 @@
     <link rel="shortcut icon" href="./images/sun.svg">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body class="bg-custom-class mx-auto px-5">
+<body class="bg-custom-class mx-auto px-5 container-fluid">
     <!-- шапка -->
-    <header class="container-fluid">
+    <header >
         <div class="header__menu">
             <div class="header__logo ">
                 <svg width="50px" height="50px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" class="logo"> 
@@ -25,7 +25,7 @@
                     <path d="M11.3,14.1a2,2,0,0,0,2.8-2.8L11.3,8.4a2.3,2.3,0,0,0-2.9,0,2.3,2.3,0,0,0,0,2.9Z"/>
                     <path d="M24,14A10,10,0,1,0,34,24,10,10,0,0,0,24,14Zm0,16a6,6,0,1,1,6-6A6,6,0,0,1,24,30Z"/>
                 </svg>
-                <p class="text__logo fs-4">ProHealth</p>
+                <p class="text__logo">ProHealth</p>
             </div>
 
             <nav class="navbar">
@@ -59,34 +59,37 @@
         </div>
     </header>
 
-    <main class="content container-fluid">
+    <main class="content">
         <!-- контентная часть слева -->
          <!-- сверху надпись -->
-         <div class="row gx-3">
-            <div class="content-left col-6  ">
-                <div class="content_image-text row classWithPad">
-                    <div class="content-text-block col-9">
-                        <h1 class="content-text"><strong>Overview</strong> <br>Patient Health</span></h1>
-                    </div>
-                    <div class="circle-process col-3 row">
-                        <div class="block_procent">
-                            <!-- <span class="loader"> -->
-                            <div class="circle">
-                                <div class="segment1"><p class="text_segment">8<span class="unical_segment">%</span></p></div>
-                                <div class="segment1_before"></div>
-                                <div class="segment3"></div>
-                                <div class="segment4"></div>
-                                <div class="segment4_before"></div>
-                            </div>
+         <div class="row">
+            <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-5 col-sm-5 ">
+                <div class=" content-left content_image-text row classWithPad">
+                    <div class="col-xxl-10 col-xl-9 col-lg-10 col-md-10 col-sm-7">
+                        <div class="content-text-block">
+                            <h1 class="content-text"><strong>Overview</strong> <br>Patient Health</span></h1>
                         </div>
-                        <!-- </span> -->
                     </div>
+                    <div class="col-xxl-2 col-xl-3 col-lg-2 col-md-2 col-sm-5">
+                        
+                            <!-- <span class="loader"> -->
+                        <div class="circle">
+                            <div class="segment1"><p class="text_segment">8<span class="unical_segment">%</span></p></div>
+                            <div class="segment1_before"></div>
+                            <div class="segment3"></div>
+                            <div class="segment4"></div>
+                            <div class="segment4_before"></div>
+                        </div>
+                        
+                    </div>
+                        <!-- </span> -->
                 </div>
+            
             <!-- блок с картинкой слева -->
                 <div class="content_lungs">
                     <div class="content_lungs-images position-relative ">
-                        <div class="image_lungs ">
-                            <img src="./images/snapedit_1738788685744.png" alt="" class="image_lungs-img ">
+                        <div class="image_lungs  ">
+                            <img src="./images/snapedit_1738788685744.png" alt="" class="image_lungs-img col-12">
                             <div class="heart_ring-card">
                                 <div class="heart_ring-card-pharagraht ">
                                     <div class="heart_ring-card-circle">
@@ -146,10 +149,9 @@
                     </div>
                 </div>
             </div>
-        
-            <div class="content_rigth col-6 mx-auto px-3">
-                <div class="content_right-top row classWithPad ">
-                    <div class="medication col-8 fluid-container ">
+            <div class=" col-xxl-8 col-xl-7 col-lg-7 col-md-7 col-sm-7 ">
+                <div class="row content_right-top">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
                         <div class="contant-medication">
                             <p class="medication-main">Medication</p>
                             <div class="medication-main-btn">
@@ -167,54 +169,61 @@
                             </div>
                         </div>
                     </div>
-                    <div class="consulation-block col-4 fluid-container">
-                        <div class="consulation">
-                            <div class="text-cons"><p class="consulation_text">Consulation</p></div>
-                            <div class="img-arrow"><img src="./images/up_right_arrow_3ppjpznrynmx (1).svg" alt="" class="arrow-rigth"></div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                        <div class="consulation-block">
+                            <div class="consulation">
+                                <div class="text-cons"><p class="consulation_text">Consulation</p></div>
+                                <div class="img-arrow"><img src="./images/up_right_arrow_3ppjpznrynmx (1).svg" alt="" class="arrow-rigth"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="content_right-under">
-                    <div class="container_right-under-first row">
-                        <div class="block col-8 fluid-container">
-                            <div class="header">
-                                <div class="header-left-icon">
-                                    <div class="icon">
-                                        <img src="./images/pills-svgrepo-com.svg" alt="" class="icon_pills">
+                <div class="row">
+                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="content_right-under d-flex align-items-stretch">
+                            <div class="container_right-under-first">
+                                <div class="block">
+                                    <div class="header">
+                                        <div class="header-left-icon">
+                                            <div class="icon">
+                                                <img src="./images/pills-svgrepo-com.svg" alt="" class="icon_pills">
+                                            </div>
+                                            <div class="text-left-icon">
+                                                <div class="text_paracetamol">Paracetamol</div>
+                                                <div class="percentage">25%</div>
+                                            </div>
+                                        </div>
+                                        <div class="badge">Influenza</div>
                                     </div>
-                                    <div class="text-left-icon">
-                                        <div>Paracetamol</div>
-                                        <div class="percentage">25%</div>
-                                    </div>
-                                </div>
-                                <div class="badge">Influenza</div>
-                            </div>
-                            <div class="graph">
-                                <div class="centr">
-                                    <div class="htu">
-                                        <img src="./images/grafic.svg" alt="" class="grafic">
-                                    </div>
-                                    <div class="footer">
-                                        <p class="number-footer">523</p> <span>+14</span><p class="respiratory">Respiratory</p>
+                                    <div class="graph">
+                                        <div class="centr">
+                                            <div class="htu">
+                                                <img src="./images/grafic.svg" alt="" class="grafic">
+                                            </div>
+                                            <div class="footer">
+                                                <p class="number-footer">523</p> <span>+14</span><p class="respiratory">Respiratory</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="scan-cardiology col-4 fluid-container">
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                        <div class="scan-cardiology">
                             <div class="test">
                                 <div class="text-arrow">
                                     <p class="scan">Scan <br>Cardiology</p>
                                     <img src="./images/up_right_arrow_3ppjpznrynmx.svg" alt="" class="arrow">
                                 </div>
-                                <p class="num">1,276</p>
+                                    <p class="num">1,276</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="content_right-under-before">
-                    <div class="container_right-under-second row">
-                        <div class="card-top col-6 fluid-container">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="card-top">
                             <div class="header-card">
                                 <div class="header-card-account">
                                     <div class="header__account man card"><img src="./images/man.svg" alt="" class="header__account-image-photo"></div>
@@ -240,17 +249,16 @@
                                 <span class="arrow_span"><img src="./images/up_right_arrow_3ppjpznrynmx (1).svg" alt=""></span>
                             </div>
                         </div>
-                        <div class="osteoporosis col-6 fluid-container">
-                            <div class="btnm">
-                                <div class="osteoporosis-btn-left">
-                                    <div class="lock-icon back">
-                                        <img src="/images/cross_457pvqedgk4c.svg" alt="" class="lock-icon-img-cross back">
-                                    </div>
-                                    <div class="lock-icon back">
-                                        <img src="/images/drop_jr3e9nfxuood.svg" alt="" class="lock-icon-img back">
-                                    </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="osteoporosis">
+                            <div class="osteoporosis-btn-left">
+                                <div class="lock-icon back">
+                                    <img src="/images/cross_457pvqedgk4c.svg" alt="" class="lock-icon-img-cross back">
                                 </div>
-
+                                <div class="lock-icon back">
+                                    <img src="/images/drop_jr3e9nfxuood.svg" alt="" class="lock-icon-img back">
+                                </div>
                             </div>
                             <div class="osteoporosisimg-text">
                                 <p class="name_osteoposis">Osteoporosis</p>
@@ -259,7 +267,6 @@
                                 </div>
                             </div>
                             <div class="btn-osteo"><img src="./images/up_right_arrow_3ppjpznrynmx.svg" alt="" class="btn-osteo-img"></div>
-
                         </div>
                     </div>
                 </div>
@@ -290,4 +297,3 @@
 <script src="./js/popover.js"></script>
 </body>
 </html>
-
