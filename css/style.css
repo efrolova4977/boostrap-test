@@ -1756,4 +1756,10 @@ button{
         padding: 10px;
         font-size: 10px;
     }    
+    .osteoporosis::before {
+        border-radius: 17px;
+    }
+    .graf-card-pharagraht {
+        left: 0%;
+    }
 }
