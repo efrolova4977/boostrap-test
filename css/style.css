@@ -1744,7 +1744,7 @@ button{
     }
 
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
     .medication-main, .consulation_text, .text_paracetamol, .badge, .scan, .name {
         font-size: 9px;
     }
@@ -1764,5 +1764,11 @@ button{
     }
     .action-button{
         display: none;
+    }
+    .grafic {
+        margin-left: 10px;
+    }
+    .centr {
+        padding: 5%;
     }
 }
