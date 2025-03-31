@@ -1762,4 +1762,7 @@ button{
     .graf-card-pharagraht {
         left: 0%;
     }
+    .action-button{
+        display: none;
+    }
 }
