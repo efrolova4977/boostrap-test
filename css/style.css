@@ -2021,6 +2021,9 @@ button{
     .blur-point-first,.blur-point-second,.blur-point-third{
         padding: 9px;
     }
+    .image_lungs-img.col-12 {
+        height: 100%;
+    }
     .blur-point-first{
         top: 36%;
         left: 28%;
