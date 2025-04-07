@@ -3,7 +3,6 @@
 
     --block-gray:#F6F6F6;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
 
 .bg-custom-class{
@@ -20,7 +19,7 @@ body{
     justify-content: space-between !important   ;
 }
 .row{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .header__logo{
@@ -82,8 +81,8 @@ body{
 }
 
 .header__account{
-    min-width: 50px; 
-    min-height: 50px; 
+    min-width: 60px; 
+    min-height: 60px; 
     background-color: #ffffff; 
     border-radius: 50%; 
     display: flex;
@@ -107,7 +106,7 @@ body{
 }
 
 .header__account-image{
-    max-height: 20px;
+    max-height: 25px;
     transition: 0.3s ease;
 }
 
@@ -143,9 +142,11 @@ h1{
 .image_lungs-img{
 
     position: relative;
-    height: 100%;
 }
-
+.image_lungs-img.col-12 {
+    flex: 0 0 auto;
+    width: 60%;
+}
 
 .binoculars{
     height: 50px;
@@ -186,22 +187,23 @@ h1{
     padding-right: 20px;
     position: absolute;
     top: 25%;
-    left: 0;
+    left: 25%;
 }
 
 
 /* график внизу */
 .graf-card-pharagraht{
     background-color: #ffffff;
-    padding: 10px 15px;
-    border-radius: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
     position: absolute;
-    top: 70%;
+    top: 60%;
+    left: 15%;
 }
 .under-graf-block{
     display: flex;
     align-items: start;
-    gap:10px;
+    gap:20px;
 }
 
 .graf-card-circle{
@@ -228,7 +230,7 @@ h1{
 }
 .formul_procent{
     color: #000000;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 500;
     margin: 0;
     padding: 0;
@@ -269,8 +271,8 @@ h1{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white;
     position: absolute;
-    top: 60%;
-    right: 0;
+    top: 55%;
+    right: 10%;
 }
 .blur-card-image-text{
     display: flex;
@@ -345,7 +347,7 @@ h1{
     transition: 0.5s;
     position: absolute;
     top: 50%;
-    left: 100px;
+    left: 42%;
 }
 .blur-point-second::before{
     content: '';
@@ -375,7 +377,7 @@ h1{
     align-items: center;
     transition: 0.5s;
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
 }
 .blur-point-third::before{
@@ -395,14 +397,14 @@ h1{
 }
 /* иконки */
 .image_icon{
-    max-width: 15px;
-    max-height: 15px;
+    max-width: 25px;
+    max-height: 25px;
 }
 .image_plus {
     background-color: #ffffff;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -414,20 +416,20 @@ h1{
     background-color: #efefef;
     border: 5px solid #ffffff;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
 }
 .image_minus {
     background-color: #ffffff;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 80px;
+    top: 110px;
     left: 0px;
     z-index: 1000;
     cursor: pointer;
@@ -436,21 +438,21 @@ h1{
     background-color: #efefef;
     border: 5px solid #ffffff;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
 }
 .image_maximize {
     background-color: #ffffff;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     z-index: 100;
-    top: 40px;
+    top: 55px;
     left: 0px;
     cursor: pointer;
 }
@@ -458,8 +460,8 @@ h1{
     background-color: #efefef;
     border: 5px solid #ffffff;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
 }
 .novigation-icon-mane{
     display: flex;
@@ -487,7 +489,7 @@ h1{
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
-    padding: 5% 35px;
+    padding: 6% 35px;
     border-radius: 80px;
 }
 .medication-main {
@@ -495,10 +497,11 @@ h1{
     font-size: 25px;
     font-weight: 200;
     margin: 0px;
-    padding-left: 40px;
+    padding-left: 5px;
 }
 .medication-main-btn{
     display: flex;
+    gap:5px;
    
 }
 .search-block{
@@ -506,9 +509,9 @@ h1{
     align-items: center;
     border: transparent;
     background-color: #F6F6F6;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 15px;
     border-radius: 35px;
-    
+    width: 170px;
 }
 .search{
     display: flex;
@@ -518,8 +521,8 @@ h1{
 }
 
 .medication_search{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     cursor: pointer;
 }
 
@@ -537,8 +540,8 @@ h1{
     /* background-color: var(--color-blue); */
     background-color: #F6F6F6;
     border-radius: 50%;
-    height:45px;
-    width: 45px;
+    height:50px;
+    width: 50px;
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -566,8 +569,8 @@ h1{
 .medication_folder{
     background-color: #F6F6F6;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -595,8 +598,8 @@ h1{
 }
 
 .arrow-rigth{
-    width:0.75vw;
-    height: 0.75vw;  
+    width:15px;
+    height: 15px;  
     margin:0px;
     padding: 0px; 
 }
@@ -614,7 +617,7 @@ h1{
     border-radius: 70px;
     box-sizing: border-box; 
     position: relative;
-    padding: 11% 0;
+    padding: 15% 0;
 }
 
 .consulation{
@@ -626,7 +629,7 @@ h1{
 .scan-cardiology{
     background-color: #ffffff;
     background-color: #ffffff;
-    border-radius: 30px;
+    border-radius: 40px;
     box-sizing: border-box;
     padding: 5px 0;
     height: 100%;
@@ -704,6 +707,7 @@ h1{
 .scan{
     font-size: 25px;
     font-weight: 400;
+    line-height: 1.2;
 }
 
 .text-arrow{
@@ -721,17 +725,23 @@ h1{
     justify-content: center;
 }
 .arrow{
-    height: 0.75vw;
-    width: 0.75vw;
+    height: 15px;
+    width: 15px;
 }
 .num{
     padding: 0px  0px 0px 12%;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 400;
     margin: 0;
 }
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+}
 .text_paracetamol{
-    font-size: 25px;
+    font-size: 18px;
+    color:gray;
 }
 .prom-text{
     display: flex;
@@ -767,13 +777,13 @@ h1{
     background-color: var(--block-gray);
     display: flex;
     align-items: center;
-    padding: 10px 25px 10px 10px;
+    padding: 15px 50px 15px 10px;
     border-radius: 60px;
     gap:10px
 }
 .name {
     color: #000000;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
 }
 
@@ -810,7 +820,7 @@ h1{
 }
 
 .value {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 400;
 }
 .content-pro{
@@ -857,7 +867,7 @@ button{
     z-index: 100;
 }
 .osteoporosis-btn-left{
-    padding: 20px 0 20% 20px;
+    padding: 40px 0 20% 20px;
     display: flex;
     flex-direction: column;
     gap:10px
@@ -903,8 +913,8 @@ button{
 
 
 .block {
-    padding: 10px 25px;
-    border-radius: 40px;
+    padding: 10px 25px 18px;
+    border-radius: 50px;
     background-color: #ffffff;
     height: 100%;
 }  
@@ -918,13 +928,13 @@ button{
 
 .header-left-icon{
     display: flex;
-    gap:10px;
+    gap:20px;
     align-items: center;
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color: var(--block-gray);
     border-radius: 50%;
     padding: 20px;
@@ -933,8 +943,8 @@ button{
     justify-content: center;
 }
 .icon_pills{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     position: absolute;
 }
 .text-paracetamol{
@@ -942,13 +952,13 @@ button{
     font-weight: 400;
 }
 .percentage {
-    font-size: 18px;
+    font-size: 40px;
     font-weight: 400;
 }
 
 .badge {
     background-color: var(--block-gray);
-    padding: 3% 4%;
+    padding: 5% 6%;
     border-radius: 50px;
     color:#000000;
     font-weight: 300;
@@ -958,7 +968,7 @@ button{
 
 .graph {
     background-color: var(--block-gray);
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 .centr{
@@ -971,7 +981,7 @@ button{
 
 
 .grafic{
-    width:50%;
+    width:80%;
     margin-left: 20px;
 }
 
@@ -981,10 +991,10 @@ button{
     flex-direction: column;
     margin: auto 40px;
     z-index: 1000;
-    padding-top: 25px;
+    padding-top: 45px;
 }
 .number-footer{
-    font-size: 55px;
+    font-size: 45px;
     line-height: 0.15;
     margin: 0;
 }
@@ -1033,7 +1043,7 @@ button{
     background-color: rgba(98, 98, 98, 0.558);
     display: inline-flex;
     padding: 2px 20px;
-    border-radius: 20px;
+    border-radius: 45px;
 }
 .btn-osteo{
     position: absolute;
@@ -1162,10 +1172,10 @@ button{
         height: 90px;
         width: 130px;
     }
-    .blur-point-third{
+    /* .blur-point-third{
         left: 46%;
         top:80%
-    }
+    } */
     .blur-card-block{
         top:44%
     }
@@ -1173,14 +1183,14 @@ button{
         font-size: 20px;
     }
     .blur-card-time{
-        font-size: 20px;
+        font-size: 25px;
     }
     h1{
         font-size: 50px;
     }
     .respiratory{
         font-size: 20px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .footer span{
         font-size: 20px;
@@ -1188,7 +1198,7 @@ button{
         left:85px;
     }
     .num{
-        margin-bottom: 0;
+        margin-top: 80px;
     }
     .block-text-osteo{
         font-size: 25px;
@@ -1197,25 +1207,45 @@ button{
         font-size: 40px;
     }
     .lock-icon, .action-button, .lock-icon.back, .btn-osteo{
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
-    .lock-icon-img-cross, .lock-icon-img, .arrow_span, .lock-icon-img-dock, .btn-osteo-img,.icon_pills{
+    .lock-icon-img-cross, .lock-icon-img, .arrow_span, .btn-osteo-img{
         width: 25px;
         height: 25px;
     }
+    .lock-icon-img-dock{
+        width: 30px;
+        height: 30px;
+    }
+
 }
 @media screen and (max-width:1600px) {
-    .blur-point-first {
+    .search-block{
+        width: 120px;
+    }
+    .search_text,.footer span{
+        font-size: 15px;
+    }
+    .respiratory{
+        font-size: 13px;
+    }
+    .medication-main {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .consulation_text,.badge,.scan {
+        font-size: 20px;
+    }
+    .footer span{
+        left: 70px;
+    }
+    .blur-point-first,.blur-point-second,.blur-point-third {
         padding: 25px;
 }
-    .blur-point-second{
-        padding: 25px;
-    }
     .blur-point-third{
         left: 55%;
         top:80%;
-        padding: 25px;
     }
     .blur-card-block{
         padding: 20px;
@@ -1236,7 +1266,7 @@ button{
         font-size: 16px;
     }
     .name_osteoposis {
-        font-size: 35px;
+        font-size: 30px;
     }
     .block-text-osteo{
         font-size: 20px;
@@ -1247,18 +1277,67 @@ button{
     .navbar__link{
         font-size: 25px;
     }
+    .value {
+        font-size: 35px;
+    }
+    .image_lungs-img.col-12 {
+        width: 65%;
+    }
+    .lock-icon, .action-button, .lock-icon.back, .btn-osteo,.icon {
+        width: 65px;
+        height: 65px;
+    }
+    .header-card-account {
+        padding: 10px 40px 10px 10px;
+    }
+    .name,.label{
+        font-size: 20px;
+    }
+    .number-footer,.num{
+        font-size: 40px;
+    }
+    .percentage {
+        font-size: 30px;
+    }
+    .grafic{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:1400px){
-    .image-graf-img{
+    .image_lungs-img.col-12 {
+        width: 95%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .heart_ring-card-circle {
         height: 50px;
-        width: 100px;
+        width: 50px;
+    }
+    .heart_ring-card-pharagraht{
+        left: 5%;
+    }
+    .blur-card-block{
+        right: 0%;
+        padding: 15px;
+    }
+    .image-graf-img {
+        height: 70px;
+        width: 110px;
+    }
+    .graf-card-pharagraht {
+        padding: 10px 15px;
+    }
+    .graf-card-circle {
+        height: 45px;
+        width: 45px;
     }
     .grafic{
-        width: 70%;
+        width: 100%;
     }
     .graf-card-pharagraht{
-        left: -10%;
+        left: -4%;
     }
     .formul{
         font-size: 16px;
@@ -1276,28 +1355,29 @@ button{
         font-size: 35px;
 
     }
-    .search_text{
-        display: none   ;
-    }
     .lock-icon, .action-button, .lock-icon.back, .btn-osteo{
         width: 60px;
         height: 60px;
     }
-    .lock-icon-img-cross, .lock-icon-img, .arrow_span, .lock-icon-img-dock, .btn-osteo-img,.icon_pills{
-        width: 20px;
-        height: 20px;
+    .lock-icon-img-cross, .lock-icon-img, .arrow_span, .lock-icon-img-dock, .btn-osteo-img, .icon_pills {
+        width: 25px;
+        height: 25px;
     }
     .number-footer{
         font-size: 40px;
     }
     .respiratory{
         margin-top: -5px;
+        font-size: 15px;
     }
     .footer span {
         top:-25px
     }
     .num{
         font-size: 40px;
+    }
+    .navbar__link {
+        font-size: 23px;
     }
 
     .consulation_text, .medication-main, .scan, .text_paracetamol, .badge{
@@ -1306,8 +1386,15 @@ button{
     .navbar__item{
         padding: 20px;
     }
+    .image_icon {
+        max-width: 20px;
+        max-height: 20px;
+    }
 }
 @media screen and (max-width:1200px){
+    .image_lungs-img.col-12 {
+        width: 95%;
+    }
     h1{
         font-size: 30px;
     }
@@ -1318,20 +1405,34 @@ button{
         max-width: 40px;
     }
     .medication-main{
-        font-size: 15px;
+        font-size: 16px;
     }
-    .search_text{
-        display: none;
+    .arrow {
+        height: 10px;
+        width: 15px;
     }
+    .arrow-rigth {
+        width: 10px;
+    }    
     .search-block{
         padding: 10px 15px;
+        width: 100px;
+    }
+    .search_text{
+        font-size: 12px;
+    }
+    .contant-medication {
+        padding: 6% 25px;
+    }
+    .circle{
+        display: none;
     }
     .medication_search{
         width: 15px;
         height: 15px;
     }
     .consulation_text{
-        font-size: 15px;
+        font-size: 16px;
     }
     .scan {
         font-size: 15px;
@@ -1339,13 +1440,16 @@ button{
     .text_paracetamol{
         font-size: 15px;
     }
+    .footer {
+        padding-top: 30px;
+    }
     .badge{
         font-size: 15px;
 
     }
-    .medication_folder{
-        height: 35px;
-        width: 35px;
+    .medication_folder {
+        height: 40px;
+        width: 40px;
     }
     .medication_maximize{
         height: 35px;
@@ -1358,10 +1462,10 @@ button{
         font-size: 30px;
     }
     .number-footer{
-        font-size: 30px;
+        font-size: 25px;
     }
     .grafic{
-        width: 70%;
+        width: 100%;
     }
     .graph{
         border-radius: 20px;
@@ -1370,13 +1474,20 @@ button{
         font-size: 15px;
     }
     .value{
-        font-size: 20px;
+        font-size: 27px;
+    }
+    .content-pro {
+        padding-left: 25px;
+    }
+    .header__account {
+        min-width: 45px;
+        min-height: 45px;
     }
     .name{
         font-size: 15px;
     }
     .header-card{
-        padding: 12px 30px;
+        padding: 12px 15px;
     }
     .lock-icon.back, .lock-icon, .action-button, .btn-osteo{
         height: 35px;
@@ -1392,7 +1503,8 @@ button{
         font-size: 15px;
     }
     .binoculars{
-        height: 30px;
+        height: 45px;
+        width: 45px;
     }
     .heart_ring-card-pharagraht{
         padding-right: 15px;
@@ -1443,11 +1555,27 @@ button{
         left:65px;
     }
     .navbar__link{
-        font-size: 20px;
+        font-size: 17px;
     }
     .arrow_span, .btn-osteo-img{
-        width: 9px;
-        height: 9px;
+        width: 15px;
+        height: 15px;
+    }
+    .header__account-image {
+        max-height: 20px;
+    }
+    .lock-icon, .action-button, .lock-icon.back, .btn-osteo, .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .lock-icon-img-cross, .lock-icon-img, .arrow_span, .lock-icon-img-dock, .btn-osteo-img, .icon_pills {
+        width: 20px;
+        height: 20px;
+    }   
+    .novigation-icon {
+        top: -50px;
+        right: -50px;
+        position: absolute;
     }
 }
 
@@ -1490,10 +1618,25 @@ button{
         font-size: 10px;
     }
     .number-footer{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .footer span {
+        left: 40px;
+        font-size: 10px;
+    }
+    .footer {
+        margin: auto 12px;
     }
     .num {
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .search-block {
+        width: 35px;
+        height: 35px;
+    }
+    .medication_folder {
+        height: 35px;
+        width: 35px;
     }
     .header-card{
         padding: 12px;
@@ -1507,13 +1650,118 @@ button{
     .navbar__link{
         font-size: 15px;
     }
-    .navbar__item{
-        padding: 10px;
+    .navbar__item {
+        padding: 12px;
     }
+    .header__account-image {
+        max-height: 12px;
+    }
+    .search_text {
+        display: none;
+        width: 35px;
+        height: 35px;
+}
+    .lock-icon, .action-button, .lock-icon.back, .btn-osteo, .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .percentage {
+        font-size: 20px;
+    }
+    .text_paracetamol {
+        font-size: 10px;
+    }
+    .grafic {
+        width: 90%;
+        margin-left: 4px;
+    }
+    .num {
+        margin-top: 30px;
+    }
+    .scan {
+        font-size: 12px;
+    }
+    .scan-cardiology,.block{
+        border-radius: 30px;
+    }
+    .block {
+        padding: 10px 10px 18px;
+    }
+    .consulation_text {
+        font-size: 12px;
+    }
+    .medication-main {
+        font-size: 12px;
+    }
+    .value {
+        font-size: 20px;
+    }
+    .header-card-account {
+        padding: 5px 10px 5px 5px;
+    }
+    .lock-icon-img-cross, .lock-icon-img, .arrow_span, .lock-icon-img-dock, .btn-osteo-img, .icon_pills {
+        width: 15px;
+        height: 15px;
+    }
+    .heart_ring-card-circle {
+        height: 40px;
+        width: 40px;
+    }
+    .binoculars {
+        height: 40px;
+        width: 40px;
+    }
+    .graf-card-pharagraht {
+        border-radius: 15px;
+    }
+    .heart-ring {
+        font-size: 12px;
+    }
+    .image_maximize,.image_plus,.image_minus{
+        height: 35px;
+        width: 35px;
+    }
+    .image_minus{
+        top:66px;
+    }
+    .image_maximize{
+        top:33px;
+    }
+    .novigation-icon {
+        top: -73px;
+        right: -39px;
+    }
+    .image_icon {
+        max-width: 16px;
+        max-height: 16px;
+    }
+    .btn-osteo {
+        bottom: 167px;
+    }
+    .header__account.man.card {
+        width: 35px;
+        height: 35px;
+    }
+    .blur_text, .blur-card-time {
+        font-size: 12px;
+    }
+    
 }
 @media screen and (max-width:768px){
+    .consulation-block {
+        padding: 15% 0;
+    }
     h1{
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .text__logo {
+        font-size: 15px;
+    }
+    .logo {
+        max-width: 30px;
+    }
+    .text-arrow {
+        padding: 0 7%;
     }
     .circle{
         display: none;
@@ -1530,18 +1778,25 @@ button{
     .header{
         padding-bottom: 4%;
     }
-    .block,.scan-cardiology{
-        border-radius: 25px;
+    .scan-cardiology,.block{
+        border-radius: 20px;
+    }
+    .block {
+        padding: 8px 11px;
+    }
+    .search-block {
+        width: 25px;
+        height: 25px;
     }
     .contant-medication{
-        padding: 5% 7px;
+        padding: 6% 7px;
     }
     .medication_maximize,.medication_folder{
         width: 25px;
         height: 25px;
     }
     .search-block{
-        padding: 4px;
+        padding: 7px;
     }
     .folder_image, .image_maximize-medication,.medication_search{
         width: 10px;
@@ -1567,8 +1822,13 @@ button{
     .icon_pills{
         width: 13px;   
     }
-    .block{
-        padding: 10px 15px;
+    .grafic {
+        width: 77%;
+        margin-left: 9px;
+    }
+    .novigation-icon {
+        top: 10px;
+        right: -23px;
     }
     .footer span{
         left:25px;
@@ -1602,149 +1862,257 @@ button{
         width: 14px;
     }
     .medication-main, .consulation_text, .text_paracetamol, .badge, .scan, .name {
-        font-size: 11px;
+        font-size: 9px;
     }
     .navbar__link{
-        font-size: 10px;
+        font-size: 9px;
     }
     .navbar__item{
-        padding: 8px;
+        padding: 4px;
     }
-}
-
-@media screen and (max-width:576px){
-    h1{
-        font-size: 35px;
-    }
-    .heart_ring-card-pharagraht{
-        padding: 0 19px 0 4px;
-    }
-    .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time{
-        font-size: 20px;
-    }
-    .binoculars{
-        height: 50px;
-    }
-    .heart_ring-card-circle, .graf-card-circle{
-        height: 7vw;
-        width: 7vw;
-    }
-    .image-graf-img{
-        width: 130px;
-    }
-    .image-graf-img{
-        width: 120px;
-    }
-    .blur-card-block{
-        padding: 25px;
-    }
-    .blur-point-first, .blur-point-second, .blur-point-third{
-        padding: 25px;
-    }
-    .blur-point-first::before, .blur-point-second::before, .blur-point-third::before{
-        width: 15px;
-        height: 15px;
-    }
-    .graf-card-pharagraht{
-        left:-5%
-    }
-    .medication-main, .consulation_text, .text_paracetamol, .badge, .scan, .name{
-        font-size: 15px;
-    }
-    .navbar__link{
-        display: none;
-    }
-    .navbar__item{
-        display: none;
-    }
-
-}
-
-
-@media screen and (max-width:490px){
-    .blur-card-block{
-        top:35%
-    }
-
-    .blur-point-first, .blur-point-second, .blur-point-third{
-        padding: 15px;
-    }
-    .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time{
-        font-size: 15px;
-    }
-    .card-top{
-        border-radius: 35px;
-    }
-    .medication-main, .consulation_text, .text_paracetamol, .badge, .scan, .name{
-        font-size: 15px;
-    }
-    .medication-main, .consulation_text, .text_paracetamol, .badge, .scan, .name {
-        font-size: 12px;
-    }
-    .binoculars {
-        height: 35px;
-    }
-    .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time {
-        font-size: 15px;
+    .image_lungs-img.col-12 {
+        width: 110%;
     }
     .respiratory {
         font-size: 8px;
     }
-    .folder_image, .image_maximize-medication, .medication_search {
-        width: 11px;
-        height: 10px;
-    
+    .graph {
+        border-radius: 15px;
+    }   
+    .percentage {
+        font-size: 15px;
     }
-    .search-block {
-        padding: 7px;
+    .image_icon {
+        max-width: 12px;
+        max-height: 16px;
     }
-}
-
-
-
-@media screen and (max-width: 425px) {
-    .image-graf-img {
-        width: 80px;
+    .novigation-icon {
+        top: 9px;
+        right: -35px;
+    }   
+    .arrow,.arrow-rigth {
+        height: 7px;
+        width: 10px;
     }
-    .block-text-osteo {
-        display: none;
+    .badge{
+        font-size: 8px;
     }
-    .btn-osteo {
-        bottom: 150px;
-        right: 15px;
-    }
-    .blur-card-block {
-        padding: 10px;
-    }
-    .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time {
-        font-size: 12px;
+    .novigation-icon {
+        top: -30px;
+        right: -35px;
+    }   
+    .lock-icon, .action-button, .lock-icon.back, .btn-osteo, .icon {
+        width: 30px;
+        height: 30px;
     }
     .action-button {
-        bottom: 8px;
-        right: 6px;}
-    .card-top {
-        border-radius: 17px;
+        bottom: 5px;
+        right: 5px;
     }
-    .osteoporosis {
-        border-radius: 17px;}
-    .lock-icon.back, .lock-icon, .action-button, .btn-osteo {
+    .osteoporosis-btn-left {
+        padding: 10px 0 30% 10px;
+        gap: 6px
+}
+    .btn-osteo {
+        bottom: 155px;
+        right: 10px;
+    }
+    .osteoporosis{
+        border-radius: 20px;
+    }
+    .heart_ring-card-circle {
+        height: 30px;
+        width: 30px;
+    }
+    .blur_text, .blur-card-time {
+        font-size: 8px;
+    }
+    .blur-card-block {
+        padding: 7px;
+    }
+    .blur-card-block {
+        right: -12%;
+    }
+    .image-graf-img {
+        height: 25px;
+        width: 50px;
+    }
+    .graf-card-circle {
+        width: 25px;
+        height: 25px;
+    }
+    .blur-card-doctor {
+        font-size: 7px;
+    }
+    .block-text-osteo {
+        font-size: 9px;
+    }
+    .name_osteoposis {
+        font-size: 12px;
+    }
+    .blur-card-block {
+        top: 32%;
+    }
+    .heart-ring {
+        font-size: 9px;
+    }
+    .heart_ring-card-circle {
+        height: 20px;
+        width: 20px;
+    }
+    .binoculars {
+        height: 30px;
+        width: 30px;
+    }
+    .heart_ring-card-pharagraht {
+        padding-right: 7px;
+    }
+    .blur-point-second {
+        top: 60%;
+        left: 129px;
+    }
+    .heart_ring-card-pharagraht {
+        left: 1%;
+    }
+    .medication-main {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:576px){
+    .row{
+        --bs-gutter-x: 0.6rem !important;}
+    .blur-card-block {
+            right: -3%;
+        }
+    .image-text-graf {
+        gap:30px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .header__logo{
+        gap:0
+    }
+    .medication-main,.consulation_text,.text_paracetamol,.badge,.scan,.name{
+        font-size: 12px;
+    }
+    .image_icon{
+        max-width: 10px;	
+        max-height: 15px;
+    }
+    .heart_ring-card-pharagraht{
+        padding: 0 5px 0 0px;
+    }
+    .binoculars{
+        height: 35px;
+        width: 35px;
+    }
+    .icon_pills{
+        width: 15px;
+        height: 15px;
+    }
+    .heart_ring-card-circle,.graf-card-circle{
+        height: 30px;
+ 		width: 30px;
+    }
+    .blur-point-first,.blur-point-second,.blur-point-third{
+        padding: 9px;
+    }
+    .blur-point-first{
+        top: 36%;
+        left: 28%;
+    }
+    .graf-card-pharagraht {
+        border-radius: 27px;
+    }   
+    .blur-point-first,.blur-point-second,.blur-point-third{
+        padding: 9px;
+    }
+    .blur-point-second{
+        top: 50%;
+        left: 34px;
+    }
+    .heart-ring,.formul,.formul_procent,.procent_graf,.blur_text,.blur-card-time{
+        font-size: 16px;
+    }
+    .image-graf-img{
+        width: 80px;
+        height: 25px;
+    }
+    .graf-card-pharagraht{
+        left: -5%;
+    }
+    .graf-card-pharagraht{
+        padding: 8px;
+    }
+    .lock-icon.back,.lock-icon,.action-button,.btn-osteo{
         height: 25px;
         width: 25px;
     }
-    .arrow, .arrow-rigth{
-        height: 1.75vw;
-        width: 3.75vw;
+    .contant-medication{
+        padding: 6% 7px;
     }
-    .graf-card-pharagraht{
-        top:65%;
-        left: -17%;
+    .consulation-block{
+        padding: 12% 0;
     }
-    .blur-point-second {
-        left: 25px;
+    .lock-icon.back,.lock-icon,.action-button,.btn-osteo{
+        height: 25px;
+ 		width: 25px;
+ 
     }
-
+    .image_plus,.image_maximize,.image_minus {
+        height: 25px;
+        width: 25px;
+    }
+    .medication-main {
+        padding-left: 10px;
+    }
+    .image_maximize{
+        top:25px;
+    }
+    .image_minus{
+        top:50px;
+    }
+    .respiratory {
+        font-size: 7px;
+    }
+    .respiratory {
+        margin-top: -1px;
+    }
+    .footer span {
+        top: -16px;
+        font-size: 7px;
+    }
+    .percentage {
+        font-size: 18px;
+    }
+    .btn-osteo {
+        top: 19px;
+        right: 20px;
+    }
+    .osteoporosis{
+        border-radius: 20px;
+    }
+    .novigation-icon {
+        top: 5px;
+        right: -48px;
+    }
+    .text-graf {
+        gap: 2px;
+    }
+    .navbar{
+        display: none;
+    }
+    .image-graf-img {
+        width: 96px;
+        height: 43px;
+    }
+    .px-5 {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
 }
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 425px) {
     .medication-main, .consulation_text, .text_paracetamol, .badge, .scan, .name {
         font-size: 9px;
     }
@@ -1770,5 +2138,27 @@ button{
     }
     .centr {
         padding: 5%;
+    }
+    .navbar{
+        display: none;
+    }
+    .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time {
+        font-size: 11px;
+    }
+    .btn-osteo {
+        top: 10px;
+        right: 10px;
+    }
+    .percentage {
+        font-size: 15px;
+    }
+    .badge{
+        font-size: 8px;
+    }
+    .graf-card-pharagraht {
+        border-radius: 17px;
+    }
+    body{
+        padding-bottom: 20px
     }
 }
