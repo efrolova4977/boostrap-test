@@ -2176,7 +2176,7 @@ button{
         border-radius: 17px;
     }
     h1 {
-        font-size: 21px;
+        font-size: 30px;
     }
     .logo {
         max-width: 20px;
@@ -2185,6 +2185,9 @@ button{
         min-height: 25px;
         min-width: 25px;
     }
+    .image_lungs-img.col-12 {
+            padding-bottom: 0;
+        }
     .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time {
         font-size: 11px;
     }
