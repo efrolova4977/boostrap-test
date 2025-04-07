@@ -1987,6 +1987,7 @@ button{
     .image-text-graf {
         gap:30px;
     }
+    
     h1{
         font-size: 30px;
     }
@@ -2059,6 +2060,10 @@ button{
         height: 25px;
  		width: 25px;
  
+    }
+    .image_plus:hover, .image_maximize:hover, .image_minus:hover{
+        height: 25px;
+ 		width: 25px;
     }
     .image_plus,.image_maximize,.image_minus {
         height: 25px;
