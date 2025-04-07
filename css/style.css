@@ -2018,9 +2018,14 @@ button{
         height: 30px;
  		width: 30px;
     }
-    .blur-point-first,.blur-point-second,.blur-point-third{
-        padding: 9px;
+    .blur-point-first::before, .blur-point-second::before, .blur-point-third::before {
+        width: 15px;
+        height: 15px;
     }
+    blur-point-first, .blur-point-second, .blur-point-third {
+        padding: 20px;
+    }
+
     .image_lungs-img.col-12 {
         height: 100%;
         padding-bottom: 75px;
