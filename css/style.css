@@ -2157,8 +2157,8 @@ button{
         display: none;
     }
     .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time {
-        font-size: 11px;
-    }
+    font-size: 12px;
+}
     .btn-osteo {
         top: 10px;
         right: 10px;
