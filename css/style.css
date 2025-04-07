@@ -2186,15 +2186,15 @@ button{
         min-width: 25px;
     }
     .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time {
-        font-size: 8px;
+        font-size: 11px;
     }
     .heart_ring-card-circle, .graf-card-circle {
         height: 20px;
         width: 20px;
     }
     .image-graf-img {
-        width: 60px;
-        height: 22px;
+        width: 70px;
+        height: 37px;
     }
     .image-text-graf {
         gap: 20px;
@@ -2203,6 +2203,10 @@ button{
         top: 55%;
         left: -11%;
     }
+    .novigation-icon {
+    top: 5px;
+    right: -35px;
+}
     .blur-point-first::before, .blur-point-second::before, .blur-point-third::before {
         width: 10px;
         height: 10px;
