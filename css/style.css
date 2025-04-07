@@ -1977,6 +1977,8 @@ button{
     .medication-main {
         padding-left: 10px;
     }
+    .action-button{
+        display:none;
 }
 @media screen and (max-width:576px){
     .row{
