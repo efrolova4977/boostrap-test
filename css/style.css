@@ -2172,6 +2172,41 @@ button{
     .graf-card-pharagraht {
         border-radius: 17px;
     }
+    h1 {
+        font-size: 21px;
+    }
+    .logo {
+        max-width: 20px;
+    }
+    .header__account {
+        min-height: 25px;
+        min-width: 25px;
+    }
+    .heart-ring, .formul, .formul_procent, .procent_graf, .blur_text, .blur-card-time {
+        font-size: 8px;
+    }
+    .heart_ring-card-circle, .graf-card-circle {
+        height: 20px;
+        width: 20px;
+    }
+    .image-graf-img {
+        width: 60px;
+        height: 22px;
+    }
+    .image-text-graf {
+        gap: 20px;
+    }
+    .graf-card-pharagraht{
+        top: 55%;
+        left: -11%;
+    }
+    .blur-point-first::before, .blur-point-second::before, .blur-point-third::before {
+        width: 10px;
+        height: 10px;
+    }
+    .blur-point-second {
+        top: 46%;
+    }
     body{
         padding-bottom: 30px
     }
