@@ -2107,10 +2107,7 @@ button{
         width: 96px;
         height: 43px;
     }
-    .px-5 {
-        padding-right: 2rem !important;
-        padding-left: 2rem !important;
-    }
+
 }
 @media screen and (max-width: 425px) {
     .medication-main, .consulation_text, .text_paracetamol, .badge, .scan, .name {
