@@ -8,7 +8,10 @@
 .bg-custom-class{
     background-color: #F6F6F6;
 }
-
+.px-5 {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
 body{
     font-family: "Afacad", sans-serif;
 }
