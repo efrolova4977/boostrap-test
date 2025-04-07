@@ -2063,13 +2063,13 @@ button{
  		width: 25px;
  
     }
-    .image_plus:hover, .image_maximize:hover, .image_minus:hover{
-        height: 25px;
- 		width: 25px;
-    }
     .image_plus,.image_maximize,.image_minus {
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
+    }
+    .image_plus:hover, .image_maximize:hover, .image_minus:hover {
+        height: 35px;
+        width: 35px;
     }
     .medication-main {
         padding-left: 10px;
