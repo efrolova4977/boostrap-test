@@ -2182,6 +2182,10 @@ button{
     .logo {
         max-width: 20px;
     }
+    .header__account.man.card{
+        width: 25px;
+        height: 25px;
+    }
     .header__account {
         min-height: 25px;
         min-width: 25px;
