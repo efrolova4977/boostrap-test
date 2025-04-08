@@ -2144,9 +2144,6 @@ button{
     .osteoporosis::before {
         border-radius: 17px;
     }
-    .graf-card-pharagraht {
-        left: 0%;
-    }
     .action-button{
         display: none;
     }
@@ -2204,7 +2201,7 @@ button{
     }
     .graf-card-pharagraht{
         top: 55%;
-        left: -11%;
+        left: 0%;
     }
     .novigation-icon {
     top: 5px;
