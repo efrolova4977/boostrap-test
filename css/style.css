@@ -2186,10 +2186,7 @@ button{
         width: 25px;
         height: 25px;
     }
-    .header__account {
-        min-height: 25px;
-        min-width: 25px;
-    }
+
     .image_lungs-img.col-12 {
             padding-bottom: 0;
         }
