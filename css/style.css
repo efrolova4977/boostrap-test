@@ -1724,6 +1724,10 @@ button{
         height: 35px;
         width: 35px;
     }
+    .image_maximize:hover,.image_plus:hover,.image_minus:hover{
+        height: 35px;
+        width: 35px;
+    }
     .image_minus{
         top:66px;
     }
